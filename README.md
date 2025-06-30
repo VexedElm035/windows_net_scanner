@@ -11,7 +11,9 @@
 - Graceful Exit: Proper handling of interruptions (Ctrl+C)
 
 # Requirements
-```pip install colorama```
+```sh
+pip install colorama
+```
 
 # Usage
 Basic scan (default: Spanish, Ethernet)
@@ -32,6 +34,9 @@ Full scan with wireless interface
 
 # Command Line Options
 -L, --language: System language (es for Spanish, en for English)
+
 -I, --interface: Network interface (wireless or ethernet)
+
 -m, --mode: Scan mode (ping for discovery, default for full scan)
+
 -?, -h: Show help and usage information
