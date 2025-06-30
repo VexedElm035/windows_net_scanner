@@ -11,20 +11,24 @@
 - Graceful Exit: Proper handling of interruptions (Ctrl+C)
 
 # Requirements
-sh```pip install colorama```
+```pip install colorama```
 
 # Usage
 Basic scan (default: Spanish, Ethernet)
-sh```python main.py```
+
+```python main.py```
 
 Wireless interface scan in English
-sh```python main.py -L en -I wireless```
+
+```python main.py -L en -I wireless```
 
 Quick ping discovery mode
-sh```python main.py -L es -I ethernet -m ping```
+
+```python main.py -L es -I ethernet -m ping```
 
 Full scan with wireless interface
-sh```python main.py -L en -I wireless -m default ```
+
+```python main.py -L en -I wireless -m default ```
 
 # Command Line Options
 -L, --language: System language (es for Spanish, en for English)
